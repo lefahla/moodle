@@ -6,7 +6,7 @@ Assuming you have installed docker and docker-compose on your host machine, foll
 <ol>
   <li>Clone this repo.<pre><code>git clone https://github.com/lefahla/moodle-docker.git</code></pre></li>
   <li>Navigate to the moodle directory<pre><code>cd moodle-docker</code></pre></li>
-  <li><pre><code>docker-compose -f docker-compose.yml up</code></pre></li>
+  <li><pre><code>docker-compose docker-compose.yml up -d</code></pre></li>
   <li>When both containers are up, a base moodle instance should be accessible at: <pre><code>http://ip-address</code></pre>
     <li>
     Defaults:
